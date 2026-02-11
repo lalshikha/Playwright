@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^\\$path = \"c:\\\\SLG\\\\SLG BREAK\\\\Playwright\\\\PW Fmw-manual\\\\src\\\\pages\\\\LoginPage\\.ts\"; \\(Get-Item \\$path \\| Select-Object LastWriteTime\\); \\(Get-Content \\$path -Raw\\) \\| Select-String -Pattern \"logger\\.info\" -Context 2 \\| head -10$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
